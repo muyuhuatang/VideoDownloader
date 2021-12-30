@@ -8,7 +8,7 @@ When find that many websites are hard to crawl the video mannually, and some web
 python package: moviepy / natsort
 
 ## Implementation Environment
-MacBook Pro 2018 15'
+MacBook Pro 15' 2018
 
 ## Implementation
 ### 1. Get the download urls for specific video
