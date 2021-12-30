@@ -11,13 +11,12 @@ with open('/Users/username/Downloads/URL.txt') as f:
     lines = f.readlines()
 
 ## download urls
-# use https://weibomiaopai.com/download-video-parser.php to get the URLs
-print(lines[0][:-1])
+print(lines[0])
 print(len(lines))
 
 try:
     for i in range(0, len(lines)):
-        url = lines[i][:-1]
+        url = lines[i]
         print(url)
         filedata = urlopen(url)
         datatowrite = filedata.read()
